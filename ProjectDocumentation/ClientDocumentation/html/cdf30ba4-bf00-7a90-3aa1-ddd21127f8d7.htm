@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html ><html lang="en-US"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" href="../css/bulma.css" /><link rel="stylesheet" href="../css/font-awesome.min.css" /><link rel="stylesheet" href="../css/presentationStyle.css" /><link rel="stylesheet" href="../css/vs.min.css" /><script src="../scripts/jquery-3.5.1.min.js"></script><script src="../scripts/clipboard.min.js"></script><script src="../scripts/highlight.min.js"></script><script src="../scripts/presentationStyle.js"></script><title>ChatDbContext Class</title><meta name="Title" content="ChatDbContext" /><meta name="Help.Id" content="T:Client.ChatDbContext" /><meta name="Help.ContentType" content="Reference" /><meta name="container" content="Client" /><meta name="guid" content="cdf30ba4-bf00-7a90-3aa1-ddd21127f8d7" /><meta name="Description" content="summaryT:Client." /><meta name="tocFile" content="../toc/IDA.xml" /></head><body><div class="fixedLayout"><div id="Header" class="fixedHeader"><div class="pageHeader level mb-0 py-2 px-4"><div id="TitleContainer" class="level-left"><div id="DocumentationTitle" class="level-item">A Sandcastle Documented Class Library</div></div><div id="LangFilterSearchContainer" class="level-right"><div class="level-item"><div class="dropdown is-hoverable"><div class="dropdown-trigger"><button class="button" aria-haspopup="true" aria-controls="dropdown-menu"><span id="CurrentLanguage"></span><span class="icon is-small"><i class="fa fa-angle-down" aria-hidden="true"></i></span></button></div><div class="dropdown-menu" role="menu"><div id="LanguageSelections" class="dropdown-content"><a class="dropdown-item languageFilterItem" data-languageId="cs">C#</a><a class="dropdown-item languageFilterItem" data-languageId="vb">VB</a><a class="dropdown-item languageFilterItem" data-languageId="cpp">C++</a><a class="dropdown-item languageFilterItem" data-languageId="fs">F#</a></div></div></div></div><div class="level-item"><form id="SearchForm" action="#" onsubmit="TransferToSearchPage(); return false;"><div class="field"><div class="control has-icons-left"><input id="SearchTerms" class="input" type="text" maxlength="200" placeholder="Search" /><span class="icon is-small is-left"><i class="fa fa-search"></i></span><button id="SearchButton" type="submit" class="is-hidden"></button></div></div></form></div></div></div></div><div class="fixedContent"><nav class="breadcrumb my-1 px-2 border-bottom" role="navigation"><ul id="TopicBreadcrumbs" /></nav><div class="columns pl-5 pr-5 fixedContent"><div id="ShowHideTOCColumn" class="column is-hidden-tablet"><a id="ShowHideTOC">Show/Hide TOC</a></div><div id="TOCColumn" class="column is-hidden-mobile"><nav class="toc"><ul id="TableOfContents" class="toc-menu" /></nav></div><div id="TopicContent" class="column content is-7"><h1>Chat<wbr />Db<wbr />Context Class</h1><div class="summary"><p class="missing">[Missing &lt;summary&gt; documentation for "T:Client.ChatDbContext"]</p></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Definition</h2><div id="IDBSection"><strong>Namespace:</strong> <a href="cc68001d-30e4-af22-a802-b877b772ba65.htm">Client</a><br /><strong>Assembly:</strong> Client (in Client.exe) Version: 1.0.0<div class="codeSnippet" data-codeSnippetLanguage="cs"><div class="codeHeader"><span class="codeHeaderTitle">C#</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cs"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">ChatDbContext</span> : <span class="identifier">DbContext</span>, 
+	<span class="identifier">IChatDbContext</span>, <span class="identifier">IDisposable</span></code></pre></div></div><div class="codeSnippet is-hidden" data-codeSnippetLanguage="vb"><div class="codeHeader"><span class="codeHeaderTitle">VB</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-vb"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">ChatDbContext</span>
+	<span class="keyword">Inherits</span> <span class="identifier">DbContext</span>
+	<span class="keyword">Implements</span> <span class="identifier">IChatDbContext</span>, <span class="identifier">IDisposable</span></code></pre></div></div><div class="codeSnippet is-hidden" data-codeSnippetLanguage="cpp"><div class="codeHeader"><span class="codeHeaderTitle">C++</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cpp"><span class="keyword">public</span> <span class="keyword">ref class</span> <span class="identifier">ChatDbContext</span> : <span class="keyword">public</span> <span class="identifier">DbContext</span>, 
+	<span class="identifier">IChatDbContext</span>, <span class="identifier">IDisposable</span></code></pre></div></div><div class="codeSnippet is-hidden" data-codeSnippetLanguage="fs"><div class="codeHeader"><span class="codeHeaderTitle">F#</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-fs"><span class="keyword">type</span> <span class="identifier">ChatDbContext</span> = 
+    <span class="keyword">class</span>
+        <span class="keyword">inherit</span> <span class="identifier">DbContext</span>
+        <span class="keyword">interface</span> <span class="identifier">IChatDbContext</span>
+        <span class="keyword">interface</span> <span class="identifier">IDisposable</span>
+    <span class="keyword">end</span></code></pre></div></div><dl class="inheritanceHierarchy"><dt>Inheritance</dt><dd><a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <a href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext" target="_blank" rel="noopener noreferrer">DbContext</a>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <span class="selflink">ChatDbContext</span></dd></dl><dl class="implementsList"><dt>Implements</dt><dd><a href="6b80b0a1-5cb4-3c8e-5dd1-145f17d3f2b5.htm">IChatDbContext</a>, <a href="https://docs.microsoft.com/dotnet/api/system.idisposable" target="_blank" rel="noopener noreferrer">IDisposable</a></dd></dl></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Constructors</h2><div id="IDDFASection"><table id="ConstructorList" class="table is-hoverable"><tr><td><a href="1b7ac740-99f5-ffae-a012-cb587a9e4f8d.htm">ChatDbContext</a></td><td>Initializes a new instance of the <span class="selflink">ChatDbContext</span> class</td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Properties</h2><div id="ID5FASection"><table id="PropertyList" class="table is-hoverable"><tr><td><a href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.changetracker#microsoft-entityframeworkcore-dbcontext-changetracker" target="_blank" rel="noopener noreferrer">ChangeTracker</a></td><td>
+                Provides access to information and operations for entity instances this context is tracking.
+            <br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext" target="_blank" rel="noopener noreferrer">DbContext</a>)</td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.contextid#microsoft-entityframeworkcore-dbcontext-contextid" target="_blank" rel="noopener noreferrer">ContextId</a></td><td>
+                A unique identifier for the context instance and pool lease, if any.
+            <br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext" target="_blank" rel="noopener noreferrer">DbContext</a>)</td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.database#microsoft-entityframeworkcore-dbcontext-database" target="_blank" rel="noopener noreferrer">Database</a></td><td>
+                Provides access to database related information and operations for this context.
+            <br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext" target="_blank" rel="noopener noreferrer">DbContext</a>)</td></tr><tr><td><a href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.model#microsoft-entityframeworkcore-dbcontext-model" target="_blank" rel="noopener noreferrer">Model</a></td><td>
+                The metadata about the shape of entities, the relationships between them, and how they map to the database.
+                May not include all the information necessary to initialize the database.
+            <br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext" target="_blank" rel="noopener noreferrer">DbContext</a>)</td></tr><tr><td><a href="79289c40-afc9-0bbd-e3e6-6f04dfbffd13.htm">Users</a></td><td> </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Methods</h2><div id="IDEFASection"><table id="MethodList" class="table is-hoverable"><tr><td><a href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.add#microsoft-entityframeworkcore-dbcontext-add(system-object)" target="_blank" rel="noopener noreferrer">Add(Object)</a></td><td>
+                Begins tracking the given entity, and any other reachable entities that are
+                not already being tracked, in the <a href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.entitystate#microsoft-entityframeworkcore-entitystate-added" target="_blank" rel="noopener noreferrer">Added<span id="LST3F74DDA8_0" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></a> state such that they will
+                be inserted into the database when <a href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext.savechanges#microsoft-entityframeworkcore-dbcontext-savechanges" target="_blank" rel="noopener noreferrer">SaveChanges<span id="LST3F74DDA8_1" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></a> is called.
+            <br />(Inherited from <a href="https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext" target="_blank" rel="noopener noreferrer">DbContext</a>)</td></tr><tr><td><span class="noLink">Add``1(UMP)</span></td><td>
+                Begins tracking the given entity, and any other reachable entities that are
+                not already being tracked, in the <span class="noLink">Added<span id="LST3F74DDA8_2" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> state such that
+                they will be inserted into the database when <span class="noLink">SaveChanges<span id="LST3F74DDA8_3" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> is called.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">AddAsync(Object, CancellationToken)</span></td><td>
+                Begins tracking the given entity, and any other reachable entities that are
+                not already being tracked, in the <span class="noLink">Added<span id="LST3F74DDA8_4" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> state such that they will
+                be inserted into the database when <span class="noLink">SaveChanges<span id="LST3F74DDA8_5" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> is called.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">AddAsync``1(UMP, CancellationToken)</span></td><td>
+                Begins tracking the given entity, and any other reachable entities that are
+                not already being tracked, in the <span class="noLink">Added<span id="LST3F74DDA8_6" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> state such that they will
+                be inserted into the database when <span class="noLink">SaveChanges<span id="LST3F74DDA8_7" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> is called.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">AddRange(IEnumerable<span id="LST3F74DDA8_8" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Object<span id="LST3F74DDA8_9" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>)</span></td><td>
+                Begins tracking the given entities, and any other reachable entities that are
+                not already being tracked, in the <span class="noLink">Added<span id="LST3F74DDA8_10" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> state such that they will
+                be inserted into the database when <span class="noLink">SaveChanges<span id="LST3F74DDA8_11" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> is called.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">AddRange(<span id="LST3F74DDA8_12" data-languageSpecificText="cpp=array&lt;"></span>Object<span id="LST3F74DDA8_13" data-languageSpecificText="cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]"></span>)</span></td><td>
+                Begins tracking the given entities, and any other reachable entities that are
+                not already being tracked, in the <span class="noLink">Added<span id="LST3F74DDA8_14" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> state such that they will
+                be inserted into the database when <span class="noLink">SaveChanges<span id="LST3F74DDA8_15" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> is called.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">AddRangeAsync(<span id="LST3F74DDA8_16" data-languageSpecificText="cpp=array&lt;"></span>Object<span id="LST3F74DDA8_17" data-languageSpecificText="cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]"></span>)</span></td><td>
+                Begins tracking the given entity, and any other reachable entities that are
+                not already being tracked, in the <span class="noLink">Added<span id="LST3F74DDA8_18" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> state such that they will
+                be inserted into the database when <span class="noLink">SaveChanges<span id="LST3F74DDA8_19" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> is called.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">AddRangeAsync(IEnumerable<span id="LST3F74DDA8_20" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Object<span id="LST3F74DDA8_21" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>, CancellationToken)</span></td><td>
+                Begins tracking the given entity, and any other reachable entities that are
+                not already being tracked, in the <span class="noLink">Added<span id="LST3F74DDA8_22" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> state such that they will
+                be inserted into the database when <span class="noLink">SaveChanges<span id="LST3F74DDA8_23" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> is called.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">Attach(Object)</span></td><td>
+                Begins tracking the given entity and entries reachable from the given entity using
+                the <span class="noLink">Unchanged<span id="LST3F74DDA8_24" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> state by default, but see below for cases
+                when a different state will be used.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">Attach``1(UMP)</span></td><td>
+                Begins tracking the given entity and entries reachable from the given entity using
+                the <span class="noLink">Unchanged<span id="LST3F74DDA8_25" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> state by default, but see below for cases
+                when a different state will be used.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">AttachRange(IEnumerable<span id="LST3F74DDA8_26" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Object<span id="LST3F74DDA8_27" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>)</span></td><td>
+                Begins tracking the given entities and entries reachable from the given entities using
+                the <span class="noLink">Unchanged<span id="LST3F74DDA8_28" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> state by default, but see below for cases
+                when a different state will be used.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">AttachRange(<span id="LST3F74DDA8_29" data-languageSpecificText="cpp=array&lt;"></span>Object<span id="LST3F74DDA8_30" data-languageSpecificText="cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]"></span>)</span></td><td>
+                Begins tracking the given entities and entries reachable from the given entities using
+                the <span class="noLink">Unchanged<span id="LST3F74DDA8_31" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> state by default, but see below for cases
+                when a different state will be used.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">ConfigureConventions</span></td><td>
+                Override this method to set defaults and configure conventions before they run. This method is invoked before
+                <span class="noLink">OnModelCreating(ModelBuilder)</span>.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">Dispose</span></td><td>
+                Releases the allocated resources for this context.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">DisposeAsync</span></td><td>
+                Releases the allocated resources for this context.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">Entry(Object)</span></td><td>
+                Gets an <span class="noLink">EntityEntry</span> for the given entity. The entry provides
+                access to change tracking information and operations for the entity.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">Entry``1(UMP)</span></td><td>
+                Gets an <span class="noLink">EntityEntry</span> for the given entity. The entry provides
+                access to change tracking information and operations for the entity.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">Finalize</span></td><td>Allows an object to try to free resources and perform other cleanup operations before it is reclaimed by garbage collection.<br />(Inherited from <span class="noLink">Object</span>)</td></tr><tr><td><span class="noLink">Find(Type, <span id="LST3F74DDA8_32" data-languageSpecificText="cpp=array&lt;"></span>Object<span id="LST3F74DDA8_33" data-languageSpecificText="cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]"></span>)</span></td><td>
+                Finds an entity with the given primary key values. If an entity with the given primary key values
+                is being tracked by the context, then it is returned immediately without making a request to the
+                database. Otherwise, a query is made to the database for an entity with the given primary key values
+                and this entity, if found, is attached to the context and returned. If no entity is found, then
+                null is returned.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">Find``1(<span id="LST3F74DDA8_34" data-languageSpecificText="cpp=array&lt;"></span>Object<span id="LST3F74DDA8_35" data-languageSpecificText="cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]"></span>)</span></td><td>
+                Finds an entity with the given primary key values. If an entity with the given primary key values
+                is being tracked by the context, then it is returned immediately without making a request to the
+                database. Otherwise, a query is made to the database for an entity with the given primary key values
+                and this entity, if found, is attached to the context and returned. If no entity is found, then
+                null is returned.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">FindAsync(Type, <span id="LST3F74DDA8_36" data-languageSpecificText="cpp=array&lt;"></span>Object<span id="LST3F74DDA8_37" data-languageSpecificText="cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]"></span>)</span></td><td>
+                Finds an entity with the given primary key values. If an entity with the given primary key values
+                is being tracked by the context, then it is returned immediately without making a request to the
+                database. Otherwise, a query is made to the database for an entity with the given primary key values
+                and this entity, if found, is attached to the context and returned. If no entity is found, then
+                null is returned.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">FindAsync(Type, <span id="LST3F74DDA8_38" data-languageSpecificText="cpp=array&lt;"></span>Object<span id="LST3F74DDA8_39" data-languageSpecificText="cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]"></span>, CancellationToken)</span></td><td>
+                Finds an entity with the given primary key values. If an entity with the given primary key values
+                is being tracked by the context, then it is returned immediately without making a request to the
+                database. Otherwise, a query is made to the database for an entity with the given primary key values
+                and this entity, if found, is attached to the context and returned. If no entity is found, then
+                null is returned.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">FindAsync``1(<span id="LST3F74DDA8_40" data-languageSpecificText="cpp=array&lt;"></span>Object<span id="LST3F74DDA8_41" data-languageSpecificText="cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]"></span>)</span></td><td>
+                Finds an entity with the given primary key values. If an entity with the given primary key values
+                is being tracked by the context, then it is returned immediately without making a request to the
+                database. Otherwise, a query is made to the database for an entity with the given primary key values
+                and this entity, if found, is attached to the context and returned. If no entity is found, then
+                null is returned.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">FindAsync``1(<span id="LST3F74DDA8_42" data-languageSpecificText="cpp=array&lt;"></span>Object<span id="LST3F74DDA8_43" data-languageSpecificText="cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]"></span>, CancellationToken)</span></td><td>
+                Finds an entity with the given primary key values. If an entity with the given primary key values
+                is being tracked by the context, then it is returned immediately without making a request to the
+                database. Otherwise, a query is made to the database for an entity with the given primary key values
+                and this entity, if found, is attached to the context and returned. If no entity is found, then
+                null is returned.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">FromExpression``1</span></td><td>
+                Creates a queryable for given query expression.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">GetType</span></td><td>Gets the <span class="noLink">Type</span> of the current instance.<br />(Inherited from <span class="noLink">Object</span>)</td></tr><tr><td><span class="noLink">MemberwiseClone</span></td><td>Creates a shallow copy of the current <span class="noLink">Object</span>.<br />(Inherited from <span class="noLink">Object</span>)</td></tr><tr><td><a href="d4052697-2f8e-48b1-9d89-b38736ccc7d7.htm">OnConfiguring</a></td><td><br />(Overrides <span class="noLink">DbContext.OnConfiguring(DbContextOptionsBuilder)</span>)</td></tr><tr><td><span class="noLink">OnModelCreating</span></td><td>
+                Override this method to further configure the model that was discovered by convention from the entity types
+                exposed in <span class="noLink">DbSet</span> properties on your derived context. The resulting model may be cached
+                and re-used for subsequent instances of your derived context.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">Remove(Object)</span></td><td>
+                Begins tracking the given entity in the <span class="noLink">Deleted<span id="LST3F74DDA8_44" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> state such that it will
+                be removed from the database when <span class="noLink">SaveChanges<span id="LST3F74DDA8_45" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> is called.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">Remove``1(UMP)</span></td><td>
+                Begins tracking the given entity in the <span class="noLink">Deleted<span id="LST3F74DDA8_46" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> state such that it will
+                be removed from the database when <span class="noLink">SaveChanges<span id="LST3F74DDA8_47" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> is called.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">RemoveRange(IEnumerable<span id="LST3F74DDA8_48" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Object<span id="LST3F74DDA8_49" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>)</span></td><td>
+                Begins tracking the given entity in the <span class="noLink">Deleted<span id="LST3F74DDA8_50" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> state such that it will
+                be removed from the database when <span class="noLink">SaveChanges<span id="LST3F74DDA8_51" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> is called.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">RemoveRange(<span id="LST3F74DDA8_52" data-languageSpecificText="cpp=array&lt;"></span>Object<span id="LST3F74DDA8_53" data-languageSpecificText="cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]"></span>)</span></td><td>
+                Begins tracking the given entity in the <span class="noLink">Deleted<span id="LST3F74DDA8_54" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> state such that it will
+                be removed from the database when <span class="noLink">SaveChanges<span id="LST3F74DDA8_55" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> is called.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><a href="b704854a-71d0-1e62-2f2a-7d6bdccf010f.htm">Save</a></td><td> </td></tr><tr><td><span class="noLink">SaveChanges<span id="LST3F74DDA8_56" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span></td><td>
+                Saves all changes made in this context to the database.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">SaveChanges(Boolean)</span></td><td>
+                Saves all changes made in this context to the database.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">SaveChangesAsync(CancellationToken)</span></td><td>
+                Saves all changes made in this context to the database.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">SaveChangesAsync(Boolean, CancellationToken)</span></td><td>
+                Saves all changes made in this context to the database.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">Set``1<span id="LST3F74DDA8_57" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span></td><td>
+                Creates a <span class="noLink">DbSet</span> that can be used to query and save instances of <span class="parameter">TEntity</span>.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">Set``1(String)</span></td><td>
+                Creates a <span class="noLink">DbSet</span> for a shared-type entity type that can be used to query and save
+                instances of <span class="parameter">TEntity</span>.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">Update(Object)</span></td><td>
+                Begins tracking the given entity and entries reachable from the given entity using
+                the <span class="noLink">Modified<span id="LST3F74DDA8_58" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> state by default, but see below for cases
+                when a different state will be used.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">Update``1(UMP)</span></td><td>
+                Begins tracking the given entity and entries reachable from the given entity using
+                the <span class="noLink">Modified<span id="LST3F74DDA8_59" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> state by default, but see below for cases
+                when a different state will be used.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">UpdateRange(IEnumerable<span id="LST3F74DDA8_60" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=("></span>Object<span id="LST3F74DDA8_61" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)"></span>)</span></td><td>
+                Begins tracking the given entities and entries reachable from the given entities using
+                the <span class="noLink">Modified<span id="LST3F74DDA8_62" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> state by default, but see below for cases
+                when a different state will be used.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">UpdateRange(<span id="LST3F74DDA8_63" data-languageSpecificText="cpp=array&lt;"></span>Object<span id="LST3F74DDA8_64" data-languageSpecificText="cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]"></span>)</span></td><td>
+                Begins tracking the given entities and entries reachable from the given entities using
+                the <span class="noLink">Modified<span id="LST3F74DDA8_65" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span> state by default, but see below for cases
+                when a different state will be used.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Events</h2><div id="IDAFASection"><table id="EventList" class="table is-hoverable"><tr><td><span class="noLink">SaveChangesFailed</span></td><td>
+                An event fired if a call to <span class="noLink">{0} Overload</span> or <span class="noLink">{0} Overload</span> fails with an exception.
+            <br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">SavedChanges</span></td><td>
+                An event fired at the end of a call to <span class="noLink">{0} Overload</span> or <span class="noLink">{0} Overload</span><br />(Inherited from <span class="noLink">DbContext</span>)</td></tr><tr><td><span class="noLink">SavingChanges</span></td><td>
+                An event fired at the beginning of a call to <span class="noLink">{0} Overload</span> or <span class="noLink">{0} Overload</span><br />(Inherited from <span class="noLink">DbContext</span>)</td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>See Also</h2><div id="seeAlsoSection"><h4>Reference</h4><div><a href="cc68001d-30e4-af22-a802-b877b772ba65.htm">Client Namespace</a></div></div></div><div id="InThisArticleColumn" class="column is-hidden-mobile"><nav class="menu sticky is-hidden"><p class="menu-label"><strong>In This Article</strong></p><ul id="InThisArticleMenu" class="menu-list"><li><a class="quickLink">Definition</a></li><li><a class="quickLink">Constructors</a></li><li><a class="quickLink">Properties</a></li><li><a class="quickLink">Methods</a></li><li><a class="quickLink">Events</a></li><li><a class="quickLink">See Also</a></li></ul></nav></div></div></div><footer id="PageFooter" class="footer border-top py-3 fixedFooter"><div class="columns"><div class="column"> 
+				</div><div class="column"> 
+				</div></div></footer></div><script>$(function(){
+SetDefaultLanguage("cs");
+LoadTocFile(null, null);
+InitializeQuickLinks();
+
+$(".toggleSection" ).click(function () {
+    SectionExpandCollapse(this);
+});
+
+$(".toggleSection").keypress(function () {
+    SectionExpandCollapseCheckKey(this, event)
+});
+hljs.highlightAll();
+});</script></body></html>
